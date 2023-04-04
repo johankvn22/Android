@@ -13,14 +13,13 @@
         android:layout_marginTop="-2dp"
         android:layout_marginHorizontal="0dp">
 
-            <ImageView
-                android:layout_width="450dp"
-                android:layout_height="140dp"
-                android:layout_marginLeft="-15dp"
-                android:src="@drawable/header">
-            </ImageView>
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="-15dp"
+            android:src="@drawable/header"></ImageView>
 
-                <TextView
+        <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Compulist"
@@ -35,8 +34,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
         tools:context=".MainActivity">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,16 +43,17 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/mb"
                 android:layout_width="match_parent"
-                android:layout_height="140dp"
+                android:layout_height="wrap_content"
                 android:layout_marginHorizontal="23dp"
                 android:layout_marginVertical="3dp"
                 app:cardCornerRadius="15dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/mb">
                 </ImageView>
 
                 <TextView
@@ -66,11 +66,10 @@
                     android:layout_marginLeft="10dp">
                 </TextView>
 
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/ssd"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginHorizontal="23dp"
@@ -80,7 +79,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    app:srcCompat="@drawable/ssd">
                 </ImageView>
 
                 <TextView
@@ -93,11 +92,10 @@
                     android:layout_marginLeft="10dp">
                 </TextView>
 
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cpu"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginHorizontal="23dp"
@@ -107,7 +105,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    app:srcCompat="@drawable/cpu">
                 </ImageView>
 
                 <TextView
@@ -120,11 +118,10 @@
                     android:layout_marginLeft="10dp">
                 </TextView>
 
-
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/ram"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginHorizontal="23dp"
@@ -134,7 +131,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    app:srcCompat="@drawable/ram">
                 </ImageView>
 
                 <TextView
@@ -147,13 +144,10 @@
                     android:layout_marginLeft="10dp">
                 </TextView>
 
-
-
             </androidx.cardview.widget.CardView>
 
-
-
             <androidx.cardview.widget.CardView
+                android:id="@+id/vga"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginHorizontal="23dp"
@@ -163,26 +157,23 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    app:srcCompat="@drawable/vga">
                 </ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Motherboard"
+                    android:text="Graphic Card"
                     android:textColor="#ffffff"
                     android:textSize="35dp"
                     android:layout_marginTop="70dp"
                     android:layout_marginLeft="10dp">
                 </TextView>
 
-
-
             </androidx.cardview.widget.CardView>
 
-
-
             <androidx.cardview.widget.CardView
+                android:id="@+id/psu"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginHorizontal="23dp"
@@ -192,53 +183,23 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
+                    app:srcCompat="@drawable/psu">
                 </ImageView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Motherboard"
+                    android:text="Power Supply"
                     android:textColor="#ffffff"
                     android:textSize="35dp"
                     android:layout_marginTop="70dp"
                     android:layout_marginLeft="10dp">
                 </TextView>
-
-
-
-            </androidx.cardview.widget.CardView>
-
-
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_marginHorizontal="23dp"
-                android:layout_marginVertical="3dp"
-                app:cardCornerRadius="15dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/img">
-                </ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Motherboard"
-                    android:textColor="#ffffff"
-                    android:textSize="35dp"
-                    android:layout_marginTop="70dp"
-                    android:layout_marginLeft="10dp">
-                </TextView>
-
-
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>
